@@ -1,0 +1,24 @@
+Iván Cabaleiro Escudero
+
+Fichero de respuestas prct03
+
+
+--------------------------------------------------------------------
+18. 
+2.0.0p247 :001 > puts "Hello world"
+Hello world
+ => nil 
+
+21.
+
+alu4199@cc191:~/datos/homes.rala/LPP/prct03B$ irb helloworld.rb 
+2.0.0p247 :001 > puts "Hello world"
+Hello world
+ => nil 
+2.0.0p247 :002 > 
+alu4199@cc191:~/datos/homes.rala/LPP/prct03B$ ruby helloworld.rb 
+Hello world
+
+Ambos son intérpretes de Ruby, pero irb retorna el valor del puts y además el valor de la ejecución, nil. Cuando llamamos al intérprete ruby sólo retorna el valor del puts.
+
+

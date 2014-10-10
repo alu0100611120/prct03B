@@ -21,4 +21,33 @@ Hello world
 
 Ambos son intérpretes de Ruby, pero irb retorna el valor del puts y además el valor de la ejecución, nil. Cuando llamamos al intérprete ruby sólo retorna el valor del puts.
 
+26.
+[1] pry(main)> puts x
+10
+=> nil
+[2] pry(main)> def hello
+[2] pry(main)*   puts "Hello world"
+[2] pry(main)* end  
+=> nil
+[3] pry(main)> hello
+Hello world
+=> nil
+[4] pry(main)> byebye
+bye bye world!!!
+=> nil
+[5] pry(main)> x = "changed"
+=> "changed"
+[6] pry(main)> exit
+program resumes here. Value of x is: changed.
+
+27.
+alu4199@cc191:~/datos/homes.rala/LPP/prct03B$ pry helloworld.rb 
+Hello world
+alu4199@cc191:~/datos/homes.rala/LPP/prct03B$ irb helloworld.rb 
+2.0.0p247 :001 > puts "Hello world"
+Hello world
+ => nil 
+
+Pry simplemente ejecuta el codigo, irb nos muestra la versión de ruby, el número de línea y el código de esa línea, su valor cuando se ejecuta y lo que retorna(nil)
+
 
